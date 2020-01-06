@@ -256,7 +256,7 @@ if (debug) {
 
 # Accuracy - balanced accuracy
 # 1d convnet  [1] 0.8844591 [1] 0.6036911
-# GRU         [1] 0.9103718 [1] 0.9103718
+# GRU         [1] 0.9103718 [1] 0.6673788
 # LStM        
 
 # Save the model
