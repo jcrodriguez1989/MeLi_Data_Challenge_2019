@@ -12,7 +12,13 @@ In less than 8 hours of work, I am going to work as much as possible in the [MeL
 ## Getting the data
 
 ```{bash eval = FALSE}
+# Clone current repository
 git clone https://github.com/jcrodriguez1989/MeLi_Data_Challenge_2019.git
 cd MeLi_Data_Challenge_2019
+
+# Download MeLi Challenge input data
+wget https://meli-data-challenge.s3.amazonaws.com/train.csv.gz -P data/
+gunzip data/train.csv.gz
+wget https://meli-data-challenge.s3.amazonaws.com/test.csv -P data/
 ```
 
