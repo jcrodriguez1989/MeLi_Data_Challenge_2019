@@ -259,7 +259,7 @@ if (debug) {
 # GRU         [1] 0.9103718 [1] 0.6673788
 # LStM        [1] 0.9129226 [1] 0.6687646
 # bidir GRU   [1] 0.9217221 [1] 0.7088714
-# bidir LStM  
+# bidir LStM  [1] 0.9179162 [1] 0.6915722
 
 # Save the model
 save_model_hdf5(model, paste0(
